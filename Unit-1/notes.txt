@@ -1,0 +1,7 @@
+var has global scope.
+let and const have block level scope.
+const is immutable.
+let and var are immutable.
+hoisting:-use something before declaration
+{-block},(-func),[-array]
+for in works on ind and for of works on values
