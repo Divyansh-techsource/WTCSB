@@ -109,6 +109,7 @@ void main(){
 	} catch (e) {
 		print(e);
 	} finally {
+    print("This block will always be ececuted");
 		// Code
 	}
 }
