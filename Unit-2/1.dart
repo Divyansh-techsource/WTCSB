@@ -59,35 +59,67 @@
 // }
 
 
-void main() {
+// void main() {
 
-	// Literals
-	var isCool = true;
-	int x = 2;
-	"John";
-	4.5;
+// 	// Literals
+// 	var isCool = true;
+// 	int x = 2;
+// 	"John";
+// 	4.5;
 
-	//Various ways to define String Literals in Dart
-	String s1 = 'Single';
-	String s2 = "Double";
-	String s3 = 'It\'s easy';
-  print(s3);
-	String s4 = "It's easy";
-  print(s4);
-	String s5 = 'This is going to be a very long String. '
-			'This is just a sample String demo in Dart Programming Language';
-      print(s5);
+// 	//Various ways to define String Literals in Dart
+// 	String s1 = 'Single';
+// 	String s2 = "Double";
+// 	String s3 = 'It\'s easy';
+//   print(s3);
+// 	String s4 = "It's easy";
+//   print(s4);
+// 	String s5 = 'This is going to be a very long String. '
+// 			'This is just a sample String demo in Dart Programming Language';
+//       print(s5);
 
-	// String Interpolation : Use ["My name is $name"] instead of ["My name is " + name]
-	String name = "Kevin";
+// 	// String Interpolation : Use ["My name is $name"] instead of ["My name is " + name]
+// 	String name = "Kevin";
 
-	print("My name is $name");
-	print("The number of characters in String Kevin is ${name.length}");
+// 	print("My name is $name");
+// 	print("The number of characters in String Kevin is ${name.length}");
 
 
-	int l = 20;
-	int b = 10;
+// 	int l = 20;
+// 	int b = 10;
 
-	print("The sum of $l and $b is ${l + b}");
-	print("The area of rectangle with length $l and breadth $b is ${l * b}");
+// 	print("The sum of $l and $b is ${l + b}");
+// 	print("The area of rectangle with length $l and breadth $b is ${l * b}");
+// }
+
+// import 'dart:io';
+void main(){
+  // String a=stdin.readLineSync() ?? "Guest";
+  // print(a);
+  // String? b;
+  // b??="Guest";
+  // print(b);
+  // String a=stdin.readLineSync()!;
+  // print(a);
+  // print(""); 
+  print("CASE 5");
+	// CASE 5: Custom Exception
+	try {
+		depositMoney(-200);
+	} catch (e) {
+		print(e.errorMessage());
+	} finally {
+		// Code
+	}
+}
+class DepositException implements Exception {
+	String errorMessage() {
+		return "You cannot enter amount less than 0";
+	}
+}
+
+void depositMoney(int amount) {
+	if (amount < 0) {
+		throw new DepositException();
+	}
 }
