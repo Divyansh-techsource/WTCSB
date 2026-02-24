@@ -107,7 +107,7 @@ void main(){
 	try {
 		depositMoney(-200);
 	} catch (e) {
-		print(e.errorMessage());
+		print(e);
 	} finally {
 		// Code
 	}
@@ -116,6 +116,9 @@ class DepositException implements Exception {
 	String errorMessage() {
 		return "You cannot enter amount less than 0";
 	}
+  String toString(){
+    return errorMessage();
+  }
 }
 
 void depositMoney(int amount) {
