@@ -93,7 +93,7 @@
 // }
 
 // import 'dart:io';
-void main(){
+// void main(){
   // String a=stdin.readLineSync() ?? "Guest";
   // print(a);
   // String? b;
@@ -102,28 +102,28 @@ void main(){
   // String a=stdin.readLineSync()!;
   // print(a);
   // print(""); 
-  print("CASE 5");
+  // print("CASE 5");
 	// CASE 5: Custom Exception
-	try {
-		depositMoney(-200);
-	} catch (e) {
-		print(e);
-	} finally {
-    print("This block will always be ececuted");
-		// Code
-	}
-}
-class DepositException implements Exception {
-	String errorMessage() {
-		return "You cannot enter amount less than 0";
-	}
-  String toString(){
-    return errorMessage();
-  }
-}
+// 	try {
+// 		depositMoney(-200);
+// 	} catch (e) {
+// 		print(e);
+// 	} finally {
+//     print("This block will always be executed");
+// 		// Code
+// 	}
+// }
+// class DepositException implements Exception {
+// 	String errorMessage() {
+// 		return "You cannot enter amount less than 0";
+// 	}
+//   String toString(){
+//     return errorMessage();
+//   }
+// }
 
-void depositMoney(int amount) {
-	if (amount < 0) {
-		throw new DepositException();
-	}
-}
+// void depositMoney(int amount) {
+// 	if (amount < 0) {
+// 		throw new DepositException();
+// 	}
+// }
