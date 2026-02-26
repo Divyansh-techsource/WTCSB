@@ -4,7 +4,7 @@ Future<int> roll(int num, int delayMs) {
     return num; // like resolve(num)
   });
 }
-
+/*
 Future<void> run() async {
   try {
     await roll(12212, 1000);
@@ -23,7 +23,7 @@ Future<void> run() async {
   } finally {
     print("Done with viva");
   }
-}
+}*/
 /*
 Future<void> main() async {
   await run();
