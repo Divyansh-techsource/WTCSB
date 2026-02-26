@@ -1,9 +1,9 @@
-Future<int> roll(int num, int delayMs) {
+/*Future<int> roll(int num, int delayMs) {
   return Future.delayed(Duration(milliseconds: delayMs), () {
     print("Roll. no. is $num");
     return num; // like resolve(num)
   });
-}
+}*/
 /*
 Future<void> run() async {
   try {
