@@ -162,7 +162,7 @@ class Cat extends Animal {      // Cat is Child class or sub class, Animal is su
 
 // Objectives
 // 1. Interface
-
+/*
 void main() {
 
 	var tv = Television();
@@ -187,7 +187,7 @@ class AnotherClass {
 		// Code
 	}
 
-}
+}*/
 /*
 // Here Remote and AnotherClass acts as Interface
 class Television implements Remote, AnotherClass {
