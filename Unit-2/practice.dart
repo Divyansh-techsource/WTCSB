@@ -188,7 +188,7 @@ class AnotherClass {
 	}
 
 }
-
+/*
 // Here Remote and AnotherClass acts as Interface
 class Television implements Remote, AnotherClass {
 
@@ -204,4 +204,4 @@ class Television implements Remote, AnotherClass {
 	void justAnotherMethod() {
 		print("Some code");
 	}
-}
+}*/
