@@ -1,8 +1,8 @@
-Future<String> getName() {
+/*Future<String> getName() {
   return Future.delayed(Duration(seconds: 2), () {
     return "AJ";
   });
-}
+}*/
 /*
 Future<void> main() async {
   print("Start");
