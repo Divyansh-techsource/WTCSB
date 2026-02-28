@@ -3,7 +3,7 @@ Future<String> getName() {
     return "AJ";
   });
 }
-
+/*
 Future<void> main() async {
   print("Start");
 
@@ -20,3 +20,4 @@ Future<void> main() async {
 
   print("End");
 }
+*/
