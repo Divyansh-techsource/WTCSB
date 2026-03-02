@@ -9,7 +9,7 @@
 //         r1.close();
 //     }
 // );
-
+/*
 const calci = (op, a, b) => {
     switch(op) {
         case '+':
@@ -29,3 +29,4 @@ console.log(calci('+', 1, 2));
 console.log(calci('-', 3, 1));
 console.log(calci('*', 2, 3));
 console.log(calci('/', 6, 0));
+*/
