@@ -30,3 +30,4 @@ console.log(calci('-', 3, 1));
 console.log(calci('*', 2, 3));
 console.log(calci('/', 6, 0));
 */
+console.log("Hello World");
