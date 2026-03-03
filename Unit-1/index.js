@@ -24,10 +24,10 @@ const user={
 //         console.log(this);
 //     }
 // };
-
+/*
 user.welcome();
 // user.name="ajay";
 // user.welcome();
 
 const f=user.welcome;
-console.log(f);
+console.log(f);*/
