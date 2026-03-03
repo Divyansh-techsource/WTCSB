@@ -8,7 +8,7 @@
 
 // const bb=()=>{1,2,3,4,5,6};
 // console.log(bb());
-
+/*
 const user={
     name: "aj", age:22,
     welcome: function(){
@@ -16,7 +16,7 @@ const user={
         console.log(this);
     }
 };
-
+*/
 // const user={
 //     name: "aj", age:22,
 //     welcome: ()=>{
