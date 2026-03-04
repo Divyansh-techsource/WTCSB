@@ -1,11 +1,11 @@
-// function sum(...numbers){
-//     let total=0;
-//     for(let i of numbers){
-//         total+=i;
-//     }
-//     return total;
-// }
-// console.log(sum(1,2,3,4,5))
+function sum(...numbers){
+    let total=0;
+    for(let i of numbers){
+        total+=i;
+    }
+    return total;
+}
+console.log(sum(1,2,3,4,5))
 
 // let a=[1,2,3,4,5];
 // let [first,sec,...last]=a;
