@@ -5,3 +5,4 @@ let and var are immutable.
 hoisting:-use something before declaration
 {-block},(-func),[-array]
 for in works on ind and for of works on values
+rest
