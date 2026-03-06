@@ -8,3 +8,4 @@ for in works on ind and for of works on values
 rest and spread
 promises
 sync and await
+future
