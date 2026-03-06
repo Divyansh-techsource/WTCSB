@@ -31,3 +31,4 @@ console.log(calci('*', 2, 3));
 console.log(calci('/', 6, 0));
 */
 console.log("Hello World");
+console.log("JS is fun");
