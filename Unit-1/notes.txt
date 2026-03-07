@@ -9,3 +9,4 @@ rest and spread
 promises
 sync and await
 future
+easy
