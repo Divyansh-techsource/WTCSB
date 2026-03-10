@@ -6,3 +6,4 @@ hoisting:-use something before declaration
 {-block},(-func),[-array]
 for in works on ind and for of works on values
 dart is related to java and js
+dart and js
