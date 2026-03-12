@@ -7,5 +7,5 @@ hoisting:-use something before declaration
 for in works on ind and for of works on values
 for in loop and for of loop
 loop and mixin and constructor 
-reas and spread
+rest and spread
 dart programming
