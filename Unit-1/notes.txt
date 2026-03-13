@@ -9,4 +9,3 @@ for in loop and for of loop
 loop and mixin and constructor 
 rest and spread
 dart programming
-js and react
