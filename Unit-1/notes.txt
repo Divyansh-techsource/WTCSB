@@ -7,4 +7,4 @@ hoisting:-use something before declaration
 for in works on ind and for of works on values
 array and string
 js node
-react
+react js with js
