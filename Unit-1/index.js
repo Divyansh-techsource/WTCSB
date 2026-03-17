@@ -3,11 +3,11 @@
 // let a=20
 // console.log(a)
 
-const aa=()=>{return {user:"name"}};
-console.log(aa());
+// const aa=()=>{return {user:"name"}};
+// console.log(aa());
 
-const bb=()=>{return[1,2,3,4,5,6]};
-console.log(bb());
+// const bb=()=>{return[1,2,3,4,5,6]};
+// console.log(bb());
 /*
 const user={
     name: "aj", age:22,
