@@ -8,3 +8,5 @@ for in works on ind and for of works on values
 array and string
 js node
 react js with js
+dart and flutter 
+To learn flutter we should know dart
